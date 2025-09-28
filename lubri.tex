@@ -1,0 +1,130 @@
+\documentclass[12pt,letterpaper]{article}
+
+% Paquetes necesarios para formato APA
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{times}
+\usepackage[style=apa,backend=biber]{biblatex}
+\usepackage{csquotes}
+\usepackage{fancyhdr}
+\usepackage{titletoc}
+\usepackage{tocloft}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+
+% Configuración de la bibliografía
+\addbibresource{lubri.bib}
+
+% Configuración de página
+\doublespacing
+\setlength{\parindent}{0.5in}
+
+% Configuración de encabezados
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\thepage}
+\fancyhead[L]{LUBRICACIÓN Y MANTENIMIENTO}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\headheight}{15.14989pt}
+
+% Configuración del título en tabla de contenido
+\renewcommand{\contentsname}{Tabla de Contenido}
+\renewcommand{\refname}{Referencias}
+
+\begin{document}
+
+% PORTADA
+\begin{titlepage}
+\centering
+
+{\Large\textbf{TALLER FORMATOS 
+LUBRICACIÓN Y MANTENIMIENTO }}\\[0.5cm]
+{\large Orden de Mantenimiento y Hoja de Vida}\\[2cm]
+
+{\large Presentado por:}\\[0.5cm]
+{\large Gustavo Alejandro Vergara Pareja}\\%[2cm]
+
+{\large Presentado a:}\\[0.5cm]
+{\large Ing. Miguel Lancheros Montiel}\\[2cm]
+
+{\large Universidad de Córdoba}\\
+{\large Facultad de Ingeniería}\\
+{\large Departamento de Ingeniería Mecánica}\\[5cm]
+
+{\large Montería, Córdoba}\\
+{\large \today}
+
+\end{titlepage}
+
+% TABLA DE CONTENIDO
+\newpage
+\tableofcontents
+\newpage
+
+
+\section{Orden de Mantenimiento}
+
+Una orden de mantenimiento es un documento formal que inicia, planifica, controla y registra un trabajo de mantenimiento. Es la herramienta central para coordinar recursos, materiales y tiempo, asegurando que el trabajo se realice con calidad, seguridad y dentro del costo previsto.
+
+\subsection{Funciones Principales}
+\begin{itemize}
+    \item Solicitar y autorizar trabajos.
+    \item Planificar recursos (mano de obra, materiales, herramientas).
+    \item Programar y priorizar tareas.
+    \item Registrar costos, tiempos y materiales.
+    \item Alimentar la hoja de vida del equipo.
+\end{itemize}
+
+\subsection{Contenido Mínimo}
+\begin{itemize}
+    \item Número de orden.
+    \item Fecha de emisión.
+    \item Departamento solicitante.
+    \item Identificación del equipo (código, ubicación).
+    \item Descripción del trabajo.
+    \item Prioridad (emergencia, urgente, normal, programado).
+    \item Recursos requeridos (personal, materiales, herramientas).
+    \item Estándares de tiempo.
+    \item Procedimientos de seguridad.
+    \item Firma de aprobación y cierre.
+\end{itemize}
+
+\section{Hoja de Vida de un Equipo}
+
+
+La hoja de vida de un equipo es el registro completo y sistemático de todos los datos técnicos y operativos relevantes desde la instalación hasta el retiro del activo. Este documento reúne información sobre intervenciones de mantenimiento (preventivo y correctivo), repuestos utilizados, tiempos empleados y costos asociados. Además, facilita el análisis de indicadores de confiabilidad como MTBF y MTTR, la planificación de mantenimientos y la toma de decisiones sobre reemplazo o mejora de equipos.\parencite{duffuaa2000}
+\subsection{Contenido Mínimo}
+\begin{itemize}
+    \item Datos generales: código, nombre, ubicación, fabricante, modelo, serie y fecha de instalación.
+    \item Especificaciones técnicas: capacidad, potencia, dimensiones.
+    \item Fecha de instalación y puesta en marcha.
+    \item Historial de mantenimiento: tipo (MP/MC), descripción, repuestos usados, costos, responsable, horas de parada y mediciones clave.
+    \item Reparaciones y repuestos utilizados.
+    \item Costos asociados.
+    \item Observaciones, mejoras y evidencias de trabajos realizados.
+\end{itemize}
+
+\subsection{Buenas Prácticas}
+\begin{itemize}
+    \item Mantener la prioridad y el flujo de órdenes de trabajo: ¿cuál es la causa?, ¿planificación?, ¿asignación?, ¿ejecución?, ¿verificación?
+    \item Usar estándares de tiempo y listas de verificación para asegurar la calidad y seguridad.
+    \item Registrar todos los datos en sistemas informáticos para trazabilidad y control.
+\end{itemize}
+
+% Ejemplo de cita
+Según Duffuaa et al. (2000), una gestión adecuada del mantenimiento es fundamental para la confiabilidad de los equipos.\parencite{duffuaa2000}
+
+
+
+\newpage
+\section{Referencias}
+\printbibliography
+\section{Anexos}
+*Se incluyen en las siguientes páginas.
+\end{document}

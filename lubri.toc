@@ -1,0 +1,10 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Orden de Mantenimiento}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Funciones Principales}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Contenido Mínimo}{2}{}%
+\contentsline {section}{\numberline {2}Hoja de Vida de un Equipo}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Contenido Mínimo}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Buenas Prácticas}{4}{}%
+\contentsline {section}{\numberline {3}Referencias}{5}{}%
+\contentsline {section}{\numberline {4}Anexos}{5}{}%
+\contentsfinish 

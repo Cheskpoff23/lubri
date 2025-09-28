@@ -1,0 +1,107 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{duffuaa2000}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=888fa7741819d7106475bc53d9a9950a}{%
+           family={Duffuaa},
+           familyi={D\bibinitperiod},
+           given={S.\bibnamedelimi O.},
+           giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30ee1b9699c5e12bc9db0e2cd8f34a1b}{%
+           family={Raouf},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a9a3f8b6bea9263cf65273b50a7c169}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {LIMUSA}%
+      }
+      \strng{namehash}{121a02a50b906c4a706b30a2feadb6b4}
+      \strng{fullhash}{75a7e3f77879964aceb11017afcc554b}
+      \strng{bibnamehash}{75a7e3f77879964aceb11017afcc554b}
+      \strng{authorbibnamehash}{75a7e3f77879964aceb11017afcc554b}
+      \strng{authornamehash}{121a02a50b906c4a706b30a2feadb6b4}
+      \strng{authorfullhash}{75a7e3f77879964aceb11017afcc554b}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sistemas de mantenimiento: planeación y control}
+      \field{year}{2000}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{duffuaa2000}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=888fa7741819d7106475bc53d9a9950a}{%
+           family={Duffuaa},
+           familyi={D\bibinitperiod},
+           given={S.\bibnamedelimi O.},
+           giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30ee1b9699c5e12bc9db0e2cd8f34a1b}{%
+           family={Raouf},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a9a3f8b6bea9263cf65273b50a7c169}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {LIMUSA}%
+      }
+      \strng{namehash}{121a02a50b906c4a706b30a2feadb6b4}
+      \strng{fullhash}{75a7e3f77879964aceb11017afcc554b}
+      \strng{bibnamehash}{75a7e3f77879964aceb11017afcc554b}
+      \strng{authorbibnamehash}{75a7e3f77879964aceb11017afcc554b}
+      \strng{authornamehash}{121a02a50b906c4a706b30a2feadb6b4}
+      \strng{authorfullhash}{75a7e3f77879964aceb11017afcc554b}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sistemas de mantenimiento: planeación y control}
+      \field{year}{2000}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
