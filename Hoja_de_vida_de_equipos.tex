@@ -1,0 +1,99 @@
+\documentclass[a4paper, 10pt]{article}
+
+% --- PAQUETES NECESARIOS ---
+\usepackage[utf8]{inputenc}     % Permite usar caracteres en español como ñ, á, é, etc.
+\usepackage[spanish]{babel}     % Configura el idioma del documento a español.
+\usepackage{geometry}           % Para configurar los márgenes de la página.
+\usepackage{amssymb}            % Provee el símbolo de la casilla de verificación (\square).
+\usepackage{tabularx}           % Para crear tablas que se ajustan al ancho de la página.
+\usepackage{array}              % Para mejorar la personalización de las tablas.
+% --- CONFIGURACIÓN DE PÁGINA (AJUSTADA PARA UNA HOJA) ---
+% Se reducen los márgenes superior e inferior para ganar espacio vertical.
+\geometry{a4paper, left=1in, right=1in, top=0.8in, bottom=0.8in} 
+% Se reduce el espaciado de las filas para que sea más compacto.
+\renewcommand{\arraystretch}{1.6} 
+\pagestyle{empty} % Elimina los números de página.
+\begin{document}
+% --- TÍTULO DEL DOCUMENTO ---
+\begin{center}
+    \Large\textbf{HOJA DE VIDA DE EQUIPOS}
+\end{center}
+% --- SECCIÓN 1: DATOS DEL EQUIPO ---
+\subsection*{DATOS DEL EQUIPO}
+\noindent % Evita la sangría al inicio del párrafo.
+\begin{tabularx}{\textwidth}{|l|X|}
+    \hline
+    \textbf{Código} & \\
+    \hline
+    \textbf{Nombre} & \\
+    \hline
+    \textbf{Marca} & \\
+    \hline
+    \textbf{Modelo} & \\
+    \hline
+    \textbf{Fecha de compra} & \\
+    \hline
+    \textbf{Fecha de instalación} & \\
+    \hline
+    \textbf{Detalles técnicos} & \\
+    \hline
+\end{tabularx}
+% --- SECCIÓN 2: MANTENIMIENTOS ---
+\subsection*{Mantenimientos realizados}
+\noindent
+\begin{tabularx}{\textwidth}{|c|X|X|c|}
+    \hline
+    \textbf{Fecha} & \textbf{Descripción} & \textbf{Observaciones} & \textbf{Tipo de mmto} \\
+    \hline
+     & & & \\
+    \hline
+     & & & \\
+    \hline
+     & & & \\
+    \hline
+\end{tabularx}
+% --- SECCIÓN 3: REPARACIONES MAYORES ---
+\subsection*{Reparaciones mayores}
+\noindent
+\begin{tabularx}{\textwidth}{|c|X|c|X|}
+    \hline
+    % El título principal ahora abarca las 4 columnas.
+    \multicolumn{4}{|c|}{\textbf{Reparaciones mayores}} \\
+    \hline
+    % Sub-encabezados para cada columna
+    \textbf{P. reemplazadas} & \textbf{Descripción} & \textbf{Modificaciones} & \textbf{Descripción} \\
+    \hline
+     & & & \\
+    \hline
+     & & & \\
+    \hline
+     & & & \\
+    \hline
+\end{tabularx}
+% --- SECCIÓN 4: RESPONSABLE ---
+\subsection*{Responsable del equipo}
+\noindent
+\begin{tabularx}{\textwidth}{|l|X|}
+    \hline
+    \textbf{Nombre} & \\
+    \hline
+    \textbf{Cargo} & \\
+    \hline
+    \textbf{Dependencia} & \\
+    \hline
+\end{tabularx}
+% --- SECCIÓN 5: ESTADO Y RETIRO ---
+\subsection*{Estado y Retiro}
+\noindent
+\begin{tabularx}{\textwidth}{|p{0.5\textwidth}|X|}
+    \hline
+    \textbf{Estado actual} & \textbf{Fecha de retiro} \\
+    \hline
+    $\square$ En operación & \\
+    \cline{1-1} % Línea solo para la primera columna.
+    $\square$ Fuera de servicio & \\
+    \cline{1-1}
+    $\square$ En reparación & \\
+    \hline
+\end{tabularx}
+\end{document}

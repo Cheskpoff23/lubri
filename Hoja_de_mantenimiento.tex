@@ -1,0 +1,177 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\geometry{margin=0.7in}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{amssymb}
+\usepackage{tikz}
+
+% Definir colores pastel profesionales
+\definecolor{headerblue}{RGB}{173,216,230}    % Azul pastel claro
+\definecolor{lightgray}{RGB}{248,248,248}     % Gris muy claro
+\definecolor{softblue}{RGB}{230,240,250}      % Azul muy suave
+\definecolor{mintgreen}{RGB}{240,255,240}     % Verde menta muy suave
+\definecolor{lavender}{RGB}{245,245,250}      % Lavanda muy suave
+\definecolor{peach}{RGB}{255,248,240}         % Durazno muy suave
+\definecolor{darkblue}{RGB}{70,130,180}       % Azul oscuro para texto
+
+% Configuración de estilo
+\setlength{\parindent}{0pt}
+\setlength{\extrarowheight}{4pt}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
+% Encabezado y pie elegante
+\fancyhf{}
+\fancyhead[L]{\colorbox{lightgray}{\color{lightgray}\small\textbf{ Hoja de Mantenimiento }}}
+\fancyhead[R]{\color{gray}\small\textbf{XX-XX-XXXX}}
+\fancyfoot[C]{\color{darkblue}\small\textbf{Página \thepage}}
+\setlength{\headheight}{16pt}
+\pagestyle{fancy}
+
+% Configuración de líneas y colores de tabla
+\arrayrulecolor{darkblue!30}
+\setlength{\arrayrulewidth}{0.8pt}
+
+\begin{document}
+
+% --- Título Principal Elegante ---
+\begin{center}
+\colorbox{softblue}{\begin{minipage}{0.95\textwidth}
+\begin{center}
+\vspace{8pt}
+{\huge\color{darkblue}\textbf{HOJA DE MANTENIMIENTO}}\\[6pt]
+{\large\color{darkblue} Sistema de Gestión de Mantenimiento Industrial}\\[4pt]
+\vspace{8pt}
+\end{center}
+\end{minipage}}\\[8pt]
+
+\begin{minipage}{0.95\textwidth}
+\centering
+{\large\textbf{Empresa:} \hrulefill}
+\end{minipage}
+\end{center}
+
+% --- Información General ---
+\section*{\color{darkblue}Información General}
+\begin{tabular}{|>{\columncolor{lavender}}P{0.25\textwidth}|P{0.65\textwidth}|}
+\hline
+    \textbf{Orden de trabajo:} & \\[8pt]
+\hline
+    \textbf{Fecha de emisión:} & \\[8pt]
+\hline
+    \textbf{Solicitante:} & \\[8pt]
+\hline
+    \textbf{Departamento/Área:} & \\[8pt]
+\hline
+\end{tabular}
+
+\vspace{0.3cm}
+
+\begin{tabular}{|>{\columncolor{mintgreen}}P{0.30\textwidth}|>{\columncolor{mintgreen}}P{0.30\textwidth}|>{\columncolor{mintgreen}}P{0.30\textwidth}|}
+\hline
+    \textbf{Equipo:} & \textbf{Código:} & \textbf{Ubicación:} \\[8pt]
+\hline
+ & & \\[12pt]
+\hline
+\end{tabular}
+
+\vspace{0.08cm}
+
+% --- Prioridad y Recursos ---
+\noindent{\color{darkblue}\textbf{Prioridad:}}\\[4pt]
+\begin{tabular}{|>{\columncolor{peach}}C{0.22\textwidth}|>{\columncolor{lightgray}}C{0.22\textwidth}|>{\columncolor{softblue}}C{0.22\textwidth}|>{\columncolor{mintgreen}}C{0.22\textwidth}|}
+\hline
+    \textbf{Emergencia} & \textbf{Urgente} & \textbf{Normal} & \textbf{Programado} \\[8pt]
+\hline
+\fbox{\phantom{X}} & \fbox{\phantom{X}} & \fbox{\phantom{X}} & \fbox{\phantom{X}} \\[8pt]
+\hline
+\end{tabular}
+
+\vspace{0.3cm}
+
+\noindent{\color{darkblue}\textbf{Recursos requeridos:}}\\[4pt]
+\begin{tabular}{|>{\columncolor{lavender}}P{0.30\textwidth}|>{\columncolor{lavender}}P{0.30\textwidth}|>{\columncolor{lavender}}P{0.30\textwidth}|}
+\hline
+    \textbf{Recurso 1} & \textbf{Recurso 2} & \textbf{Recurso 3} \\[8pt]
+\hline
+ & & \\[12pt]
+\hline
+\end{tabular}
+
+\vspace{0.08cm}
+
+\noindent\textbf{Tiempo estimado (h):} \hrulefill
+
+\vspace{0.08cm}
+
+% --- Descripción del problema (ampliada y con estilo) ---
+\noindent{\color{darkblue}\textbf{Descripción detallada del problema:}}\\[4pt]
+\begin{tabular}{|>{\columncolor{softblue}}P{0.92\textwidth}|}
+\hline
+\rule{0pt}{4.5cm}\\
+\hline
+\end{tabular}
+
+\vspace{0.08cm}
+
+% --- Información del Equipo ---
+\section*{\color{darkblue}Información del Equipo}
+\begin{tabular}{|>{\columncolor{peach}}P{0.23\textwidth}|P{0.23\textwidth}|>{\columncolor{peach}}P{0.23\textwidth}|P{0.23\textwidth}|}
+\hline
+    \textbf{Fabricante:} & & \textbf{Modelo:} & \\[8pt]
+\hline
+    \textbf{Serie:} & & \textbf{Fecha instalación:} & \\[8pt]
+\hline
+\end{tabular}
+
+\vspace{0.08cm}
+
+% --- Partes y Repuestos (descripción ampliada) ---
+\section*{\color{darkblue}Partes y Repuestos Utilizados}
+\begin{tabular}{|>{\columncolor{lavender}}C{0.08\textwidth}|>{\columncolor{mintgreen}}C{0.08\textwidth}|>{\columncolor{softblue}}P{0.40\textwidth}|>{\columncolor{peach}}C{0.12\textwidth}|>{\columncolor{lightgray}}C{0.10\textwidth}|>{\columncolor{lavender}}C{0.10\textwidth}|}
+\hline
+    \textbf{Fecha} & \textbf{Tipo} & \textbf{Descripción} & \textbf{Repuestos} & \textbf{Costo} & \textbf{Resp.} \\[8pt]
+\hline
+ & & & & & \\[8pt]
+\hline
+ & & & & & \\[8pt]
+\hline
+ & & & & & \\[8pt]
+\hline
+\end{tabular}
+
+\vspace{0.08cm}
+
+% --- Cierre ---
+\section*{\color{darkblue}Cierre del Mantenimiento}
+\begin{tabular}{|>{\columncolor{lavender}}P{0.45\textwidth}|>{\columncolor{mintgreen}}P{0.45\textwidth}|}
+\hline
+    \textbf{Firma responsable:} & \textbf{Fecha de cierre:} \\[12pt]
+\hline
+ & \\[20pt]
+\hline
+\end{tabular}
+
+\vspace{0.08cm}
+
+% --- Notas adicionales (ampliada) ---
+\noindent{\color{darkblue}\textbf{Notas adicionales:}}\\[4pt]
+\begin{tabular}{|>{\columncolor{peach}}P{0.92\textwidth}|}
+\hline
+\rule{0pt}{3.5cm}\\
+\hline
+\end{tabular}
+
+\end{document}
+
